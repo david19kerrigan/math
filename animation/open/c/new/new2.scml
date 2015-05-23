@@ -8,7 +8,7 @@
         <file id="4" name="mouth.png" width="9" height="9" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="entity_000">
-        <animation id="0" name="NewAnimation" length="20000" interval="100">
+        <animation id="0" name="NewAnimation" length="4600" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
