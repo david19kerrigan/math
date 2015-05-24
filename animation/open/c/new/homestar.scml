@@ -10,7 +10,7 @@
         <file id="6" name="papel.png" width="64" height="16" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="entity_000">
-        <animation id="0" name="NewAnimation" length="3700" interval="100">
+        <animation id="0" name="NewAnimation" length="3900" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -482,7 +482,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="NewAnimation_000" length="30000" interval="100">
+        <animation id="1" name="NewAnimation_000" length="8400" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -2702,7 +2702,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="NewAnimation_001" length="30000" interval="100">
+        <animation id="2" name="NewAnimation_001" length="6800" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -3710,10 +3710,10 @@
             </timeline>
             <timeline id="4" name="papel">
                 <key id="0" time="5350" spin="0">
-                    <object folder="0" file="6" x="-33" y="49"/>
+                    <object folder="0" file="6" x="-33" y="49" angle="0"/>
                 </key>
                 <key id="1" time="5450" spin="0">
-                    <object folder="0" file="6" x="-33" y="33"/>
+                    <object folder="0" file="6" x="-33" y="33" angle="0"/>
                 </key>
             </timeline>
         </animation>
